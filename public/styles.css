@@ -1,0 +1,138 @@
+html,body {
+    margin: 0;
+    padding: 0;
+}
+* {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 44;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+.hero {
+    text-align: center;
+    background-color: #293499;
+    background-image: url('/images/hero.png');
+    background-size: cover;
+    padding: 5% 0;
+}
+.hero h1 {
+    margin-top: 0;
+    font-weight: bold;
+    font-size: 72px;
+    color: #FFE500;
+}
+.hero h2,
+.hero h3 {
+    font-weight: bold;
+    font-size: 52px;
+    color: #FFE500;
+}
+.hero a {
+    color: #FFE500;
+}
+
+.qa {
+    text-align: center;
+    background-color: #293499;
+    background-image: url('/images/qa-bg.png');
+    background-size: cover;
+    padding: 5% 15%;
+}
+.qa > div > h4,
+.qa > div > p,
+.qa > div > ul {
+    color: #FFE500;
+    text-align: left;
+}
+.qa > div > h4 {
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.qa > div > p,
+.qa > div > ul {
+    font-size: 36px;
+    font-weight: 400;
+    margin-top: 0;
+}
+.qa > div {
+    margin-bottom: 32px;
+}
+.qa > div ul {
+    text-align: left;
+}
+.qa a {
+    font-weight: bold;
+    color: white;
+}
+.calendar {
+    background: #293499;
+    padding: 10%;
+    text-align: center;
+}
+.calendar h4 {
+    color: #FFE500;
+    text-align: center;
+    font-size: 72px;
+    font-weight: bold;
+    width: 60%;
+    margin: 0 auto 3% auto;
+}
+.calendar a {
+    background: #fff;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 32px;
+    border-radius: 48px;
+    padding: 8px 45px;
+
+    transition: 1s ease box-shadow;
+}
+.calendar a:hover {
+    box-shadow: -1px 7px 26px 0px rgba(255,229,0,0.75);
+    -webkit-box-shadow: -1px 7px 26px 0px rgba(255,229,0,0.75);
+    -moz-box-shadow: -1px 7px 26px 0px rgba(255,229,0,0.75);
+}
+.directions {
+    display: block;
+    background: url('./images/directions.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 60vh;
+    background-color: lightgrey;
+}
+@media only screen and (max-width: 1300px) {
+    .hero {
+        padding: 3%;
+    }
+    .hero h1 {
+        font-size: 48px;
+    }
+    .hero h2,
+    .hero h3 {
+        font-size: 32px;
+    }
+    .qa {
+        padding: 3%;
+    }
+    .qa > div > h4 {
+        font-size: 24px;
+    }
+    .qa > div > p,
+    .qa > div > ul {
+        font-size: 20px;
+    }
+    .calendar {
+        padding: 10% 3%;
+    }
+    .calendar h4 {
+        width: 90%;
+    }
+    .directions {
+        min-height: 80vh;
+        background-size: cover;
+    }
+}
