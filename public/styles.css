@@ -136,3 +136,29 @@ html,body {
         background-size: cover;
     }
 }
+@media only screen and (max-width: 600px) {
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    .hero h2,
+    .hero h3 {
+        font-size: 25px;
+    }
+
+    .qa > div > h4 { 
+        font-size: 20px;
+    }
+    .qa > div > p,
+    .qa > div > ul {
+        font-size: 16px;
+    }
+    .calendar h4 {
+        font-size: 40px;
+        margin-bottom: 5%;
+    }
+
+    .calendar a {
+        font-size: 24px;
+    }
+}
